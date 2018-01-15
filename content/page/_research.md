@@ -1,8 +1,8 @@
 ---
-title: Projects
-description: Some stuff that I've worked on over the years!
+title: Research
+description: Recent Publications and Scientific Research.
 menu: main
-weight: 1
+weight: 2
 ---
 {{% center %}}
 > Minimalism is not a lack of something. It’s simply the perfect amount of something.
