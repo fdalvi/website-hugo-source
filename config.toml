@@ -31,9 +31,9 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "Powered by [Hugo](https://gohugo.io) and [Minimo](https://github.com/MunifTanjim/minimo)"
+holder = "Fahim Dalvi."
 startYear = "2017"
-suffix = ""
+suffix = "Powered by [Hugo](https://gohugo.io) and [Minimo](https://github.com/MunifTanjim/minimo)"
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -66,9 +66,10 @@ github = "fdalvi"
 linkedin = "fdalvi"
 #twitter = "MunifTanjim"
 #telegram = "MunifTanjim"
+google_scholar = "uQGCv10AAAAJ"
 
 [params.social.config]
-platforms = ["email","github","facebook","twitter","instagram","codepen","linkedin","telegram"]
+platforms = ["email","github","facebook","twitter","instagram","codepen","linkedin","telegram","google_scholar"]
 
 [taxonomies]
 author = "authors"
