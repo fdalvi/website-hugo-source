@@ -7,7 +7,7 @@ comments:
   #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
-  allowedFields: ["name", "message", "color"]
+  allowedFields: ["name", "comment", "color"]
 
   # (*) REQUIRED
   #
@@ -16,7 +16,7 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "[@timestamp] Add comment from StaticMan"
+  commitMessage: "[{@timestamp}] Add comment from StaticMan"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -69,7 +69,7 @@ comments:
 
   # Names of required fields. If any of these isn't in the request or is empty,
   # an error will be thrown.
-  requiredFields: ["name", "message"]
+  requiredFields: ["name", "comment", "color"]
 
   allowedOrigins: ["localhost", "fdalvi.github.io"]
 
