@@ -6,7 +6,7 @@ copyright = ""
 theme = "minimo"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-19417017-2"
 
 Paginate = 5
 preserveTaxonomyNames = true
