@@ -19,6 +19,15 @@ pygmentsCodefences = true
 # Missing translations will default to this content language
 defaultContentLanguage = "en"
 
+[params]
+comments = true
+staticmanAPIURL = "https://api.staticman.net/v2/entry/fdalvi/website-hugo-source/master/comments"
+
+[params.reCaptcha]
+enabled = true
+siteKey = "6LffakUUAAAAAOnpoeUZXjAwXo5B_mk5q_eLsJyY"
+secret = "aG5MlHYf7QYGlY6a2Xdv/1+U+GYpv1QAgkkMyZwWmemdCqrqwOp4Y3duylvGXBDu7v0GGGO83St9X54+1DgQDmRfePPqNiL/ZTA02HHGKTJZfsbzyNbIuW/JG+peTcbxyyfHBsn+7/iYSY8c1X2TVKtLsREDp8XtsAwaPUi7I0I="
+
 [params.info]
 description = "Software Engineer | Deep Learning Researcher | Mentor"
 title404 = "Nothing's here!"
