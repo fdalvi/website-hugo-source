@@ -1,0 +1,15 @@
+{{ range $index, $comments := (index $.SiteDataComments_parent $.entryId_parent ) }}
+  {{ if eq .reply_to $.parentId }}
+    <div class="post-comment-reply">
+      <div class="post-comment-header">
+        <img class="post-comment-avatar" src="/img/icons8-name-filled-100.png" style="background-color: {{ .color | safeCSS}}">
+        <p class="post-comment-info">
+        	<strong>{{ .name }}</strong>
+        	<!-- <br> -->
+        	<i><small>(In reply to {{ $.parentName }})</i></small><br>
+        	{{ dateFormat "Monday, Jan 2, 2006" .date }}</p>
+      </div>
+      {{ .comment | markdownify }}
+    </div>
+  {{ end }}
+{{ end }}

@@ -11,6 +11,7 @@ tags:
   - testing
   - network
   - puppeteer
+slug: 2018-02-05-puppeteer-network-throttle
 ---
 
 [Puppeteer](https://github.com/GoogleChrome/puppeteer) is an awesome way to run Chrome (or Chromium) in _headless_ mode, i.e. load and interact with web pages without ever visually seeing them. 

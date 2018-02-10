@@ -1,0 +1,92 @@
+<section class="comment_form">
+  <a id="comment-form"></a>
+  <h3>Say something:</h3>
+  <i><p id="post-replying-to"></p></i>
+  <form id="post-comment-form" class="post-new-comment" method="POST" action="{{ .Site.Params.staticmanAPIURL }}">
+    <input type="hidden" name="options[entryId]" value="{{ .File.BaseFileName }}">
+    <input type="hidden" name="options[slug]" value="{{ .Permalink }}">
+    <input type="hidden" name="options[origin]" value="{{ .Permalink }}">
+    <input type="hidden" name="options[parent]" value="{{ .File.BaseFileName }}">
+    <input type="hidden" name="fields[reply_to]" value="">
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ .Site.Params.recaptcha.siteKey }}">
+    <input type="hidden" name="options[reCaptcha][secret]" value="{{ .Site.Params.recaptcha.secret }}">
+
+    <input type="hidden" name="fields[color]" value="red">
+    <div class="post-comment-field">
+      <input name="fields[name]" type="text" placeholder="Your name">
+      <div id="colors" style="flex-grow: 2">
+        <a class="color-picker color-selected" style="background-color: #ffeeb0;" onclick="chooseColor(this)"></a>
+        <a class="color-picker" style="background-color: #ec2045;" onclick="chooseColor(this)"></a>
+        <a class="color-picker" style="background-color: #f26247;" onclick="chooseColor(this)"></a>
+        <a class="color-picker" style="background-color: #c7c12f;" onclick="chooseColor(this)"></a>
+        <a class="color-picker" style="background-color: #a2d49f;" onclick="chooseColor(this)"></a>
+      </div>
+    </div>
+    <textarea name="fields[comment]" class="post-comment-field" placeholder="Your message. Feel free to use Markdown!" rows="5"></textarea>
+    <button class="g-recaptcha" data-sitekey="{{ .Site.Params.recaptcha.siteKey }}" data-callback='onSubmit'>Submit</button>
+  </form>
+
+  <script async src='https://www.google.com/recaptcha/api.js' ></script>
+  
+  <script type="text/javascript">
+    function chooseColor(e) {
+      var elems = document.getElementsByClassName("color-picker");
+      for (var i = elems.length - 1; i >= 0; i--) {
+        elems[i].classList.remove("color-selected");
+      }
+      e.classList.add("color-selected");
+
+      document.getElementsByName('fields[color]')[0].value = e.style.backgroundColor;
+    }
+
+    function chooseRandomColor() {
+      var elems = document.getElementsByClassName("color-picker");
+      chooseColor(elems[Math.floor(Math.random() * elems.length)]);
+    }
+    function onSubmit(){
+      var form = document.getElementById("post-comment-form");
+      var xhr = new XMLHttpRequest();
+      var params = [].filter.call(form.elements, function (el) {return !(el.type in ['checkbox', 'radio']) || el.checked;})
+      .filter(function(el) { return !!el.name; }) //Nameless elements die.
+      .filter(function(el) { return !el.disabled; }) //Disabled elements die.
+      .map(function(el) {
+        if (el.type=='checkbox') return encodeURIComponent(el.name) + '=' + encodeURIComponent(el.checked);
+        else return encodeURIComponent(el.name) + '=' + encodeURIComponent(el.value);
+      }).join('&'); //Then join all the strings by &
+      xhr.open("POST", form.action);
+      xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+      xhr.onload = function(r) {
+        var success = JSON.parse(r.target.response).success;
+
+        if (success) {
+          document.getElementById("post-submitting").classList.add("hidden")
+          document.getElementById("post-submitted").classList.remove("hidden")
+        } else {
+          document.getElementById("post-submitting").classList.add("hidden")
+          document.getElementById("post-error").classList.remove("hidden")
+        }
+      };
+      xhr.send(params);
+
+      form.classList.add("hidden")
+      document.getElementById("post-submitting").classList.remove("hidden")
+    }
+
+    window.onload = function() {
+      chooseRandomColor()
+    }
+  </script>
+
+  <div id="post-submitting" class="dialog hidden">
+    Submitting comment...
+  </div>
+
+  <div id="post-submitted" class="dialog hidden">
+    Your comment has been submitted and will be published once it has been approved.
+  </div>
+
+  <div id="post-error" class="dialog hidden">
+    Oops! Your comment has not been submitted. Please return to the page and try again. Thank you!
+  </div> 
+
+</section>
