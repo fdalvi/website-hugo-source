@@ -7,6 +7,15 @@ slug: projects
 comments: false
 ---
 {{% center %}}
-> Minimalism is not a lack of something. It’s simply the perfect amount of something.
-> — Nicholas Burroughs
+<div class="project-list">
+	<div class="project">
+		<img src="/img/projects/live-speech-translation.png"></img>
+		<p> Live Speech Translation </p>
+	</div>
+	<div class="project">
+		<img src="/img/projects/machine-translation-api.png"></img>
+		<p> Machine Translation API </p>
+	</div>
+	<div class="project"> More to come!</div>
+</div>
 {{% /center %}}
