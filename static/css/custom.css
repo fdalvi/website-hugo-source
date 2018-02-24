@@ -26,6 +26,7 @@
 	max-width: 740px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 0 auto;
 }
 
 .post-comment {
@@ -164,7 +165,7 @@
 	max-height: 180px;
 }
 
-.project > .container {
+.project > .project-container {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 100%;
@@ -173,7 +174,7 @@
 	align-self: stretch;
 }
 
-.project > .container > .project-title {
+.project > .project-container > .project-title {
 	font-weight: bold;
 	font-size: 22px;
 	margin: 0px;
@@ -181,7 +182,7 @@
 	margin-bottom: 5px;
 }
 
-.project > .container > .project-description {
+.project > .project-container > .project-description {
 	flex: 1 0 auto;
 }
 
@@ -189,11 +190,11 @@
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.project > .container > .project-tags {
+.project > .project-container > .project-tags {
 
 }
 
-.tag {
+.project-tag {
 	color: rgb(0, 149, 235);
 	border-radius: 5px;
 	border-style: solid;
