@@ -1,0 +1,22 @@
+title: "QCRI @ DSL 2016: Spoken Arabic Dialect Identification Using Textual Features"
+authors: "Mohamed Eldesouki, <span class='highlight-author'>Fahim Dalvi</span>, Hassan Sajjad, and Kareem Darwish"
+venue: "<a href='http://ttg.uni-saarland.de/vardial2016/'>The Third Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial3)</a>"
+abstract: "The paper describes the QCRI submissions to the shared task of automatic Arabic dialect classification into 5 Arabic variants, namely Egyptian, Gulf, Levantine, North-African (Maghrebi), and Modern Standard Arabic (MSA). The relatively small training set is automatically generated from an ASR system. To avoid over-fitting on such small data, we selected and designed features that capture the morphological essence of the different dialects. We submitted four runs to the Arabic sub-task. For all runs, we used a combined feature vector of character bigrams, trigrams, 4-grams, and 5-grams. We tried several machine-learning algorithms, namely Logistic Regres- sion, Naive Bayes, Neural Networks, and Support Vector Machines (SVM) with linear and string kernels. Our submitted runs used SVM with a linear kernel. In the closed submission, we got the best accuracy of 0.5136 and the third best weighted F1 score, with a difference of less than 0.002 from the best system."
+thumbnail: "/research/2016-12-DSL-Dialect-ID/thumbnail.jpg"
+pdf: "/research/2016-12-DSL-Dialect-ID/paper.pdf"
+bib: 
+>
+    @InProceedings{W16-4828,
+      author =  "Eldesouki, Mohamed
+        and Dalvi, Fahim
+        and Sajjad, Hassan
+        and Darwish, Kareem",
+      title =   "QCRI {\$}@{\$} DSL 2016: Spoken Arabic Dialect Identification Using Textual Features",
+      booktitle =   "Proceedings of the Third Workshop on NLP for Similar Languages, Varieties      and Dialects (VarDial3)    ",
+      year =  "2016",
+      publisher =   "The COLING 2016 Organizing Committee",
+      pages =   "221--226",
+      location =  "Osaka, Japan",
+      url =   "http://www.aclweb.org/anthology/W16-4828"
+    }
+

@@ -1,0 +1,26 @@
+title: "QCRI's Live Speech Translation System"
+authors: "<span class='highlight-author'>Fahim Dalvi</span>, Yifan Zhang, Sameer Khurana, Nadir Durrani, Hassan Sajjad Ahmed Abdelali, Hamdy Mubarak, Ahmed Ali, Stephan Vogel"
+venue: "<a href='http://eacl2017.org'>European Chapter of the Association for Computational Linguistics 2017</a>"
+abstract: "We present QCRI’s Arabic-to-English speech translation system. It features modern web technologies to capture live audio, and broadcasts Arabic transcriptions and English translations simultaneously. Our Kaldi-based ASR system uses the Time Delay Neural Network architecture, while our Machine Translation (MT) system uses both phrase-based and neural frameworks. Although our neural MT system is slower than the phrase-based system, it produces significantly better translations and is memory efficient."
+thumbnail: "/research/2017-04-EACL-Demo/thumbnail.jpg"
+pdf: "/research/2017-04-EACL-Demo/paper.pdf"
+bib: 
+>
+    @InProceedings{E17-3016,
+      author =  "Dalvi, Fahim
+        and Zhang, Yifan
+        and Khurana, Sameer
+        and Durrani, Nadir
+        and Sajjad, Hassan
+        and Abdelali, Ahmed
+        and Mubarak, Hamdy
+        and Ali, Ahmed
+        and Vogel, Stephan",
+      title =   "QCRI Live Speech Translation System",
+      booktitle =   "Proceedings of the Software Demonstrations of the 15th Conference of the European Chapter of the Association for Computational Linguistics",
+      year =  "2017",
+      publisher =   "Association for Computational Linguistics",
+      pages =   "61--64",
+      location =  "Valencia, Spain",
+      url =   "http://aclweb.org/anthology/E17-3016"
+    }

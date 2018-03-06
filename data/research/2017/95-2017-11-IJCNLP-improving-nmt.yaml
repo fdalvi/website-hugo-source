@@ -1,0 +1,24 @@
+title: "Understanding and Improving Morphological Learning in the Neural Machine Translation Decoder"
+authors: "<span class='highlight-author'>Fahim Dalvi</span>, Nadir Durrani, Hassan Sajjad, Yonatan Belinkov, Stephan Vogel"
+venue: "<a href='http://ijcnlp2017.org'> Eighth International Joint Conference on Natural Language Processing </a>"
+abstract: "End-to-end training makes the neural machine translation (NMT) architecture simpler, yet elegant compared to traditional statistical machine translation (SMT). However, little is known about linguistic patterns of morphology, syntax and semantics learned during the training of NMT systems, and more importantly, which parts of the architecture are responsible for learning each of these phenomena. In this paper we i) analyze how much morphology an NMT decoder learns, and ii) investigate whether injecting target morphology into the decoder helps it produce better translations. To this end we present three methods: i) joint generation, ii) joint-data learning, and iii) multi-task learning. Our results show that explicit morphological information helps the decoder learn target language morphology and improves the translation quality by 0.2–0.6 BLEU points."
+thumbnail: "/research/2017-11-IJCNLP-improving-nmt/thumbnail.jpg"
+pdf: "/research/2017-11-IJCNLP-improving-nmt/paper.pdf"
+slides: "/research/2017-11-IJCNLP-improving-nmt/slides.pdf"
+bib: 
+>
+    @InProceedings{I17-1015,
+      author =  "Dalvi, Fahim
+        and Durrani, Nadir
+        and Sajjad, Hassan
+        and Belinkov, Yonatan
+        and Vogel, Stephan",
+      title =   "Understanding and Improving Morphological Learning in the Neural Machine Translation Decoder",
+      booktitle =   "Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+      year =  "2017",
+      publisher =   "Asian Federation of Natural Language Processing",
+      pages =   "142--151",
+      location =  "Taipei, Taiwan",
+      url =   "http://aclweb.org/anthology/I17-1015"
+    }
+

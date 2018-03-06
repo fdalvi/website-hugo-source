@@ -1,0 +1,3 @@
+{{ range (index $.Site.Data.research (.Get "category")) "key" "desc" }}
+	{{ partial "research-entry.html" . }}
+{{ end }}

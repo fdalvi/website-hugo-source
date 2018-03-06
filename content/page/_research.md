@@ -6,7 +6,9 @@ weight: 2
 slug: research
 comments: false
 ---
-{{% center %}}
-> Minimalism is not a lack of something. It’s simply the perfect amount of something.
-> — Nicholas Burroughs
-{{% /center %}}
+
+<h3> 2017 </h3>
+{{% research-entries category="2017"%}}
+
+<h3> 2016 </h3>
+{{% research-entries category="2016"%}}

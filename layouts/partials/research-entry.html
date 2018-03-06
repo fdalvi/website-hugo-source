@@ -1,0 +1,25 @@
+<div class="research-entry">
+	<div class="research-thumb">
+		<img src="{{(.thumbnail)}}">
+	</div>
+	<div class="research-details">
+		<div class="research-title"><b>{{(.title)}}</b></div>
+		<div class="research-authors"> <i> {{.authors | safeHTML}} </i> </div>
+		<div class="research-venue">{{(.venue) | safeHTML}}</div>
+		<div class="research-abstract">	
+			{{(.abstract)}}
+		</div>
+		<div class="research-actions">
+			<div class="research-action" onclick="this.parentNode.previousElementSibling.classList.toggle('expanded')">Abstract</div>
+			{{ if .pdf }}<a class="research-action" href="{{ .pdf }}">PDF</a> {{ end }}
+			{{ if .poster }}<a class="research-action" href="{{ .poster }}">Poster</a> {{ end }}
+			<div class="research-action" onclick="this.parentNode.nextElementSibling.classList.toggle('expanded')">Cite (.bib)</div>
+			{{ if .slides }}<a class="research-action" href="{{ .slides }}">Slides</a> {{ end }}
+		</div>
+		{{ if .bib }}
+			<div class="research-citation">	
+				{{highlight .bib "tex" "nowrap=false"}}
+			</div>
+		{{ end }}
+	</div>
+</div>

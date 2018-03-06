@@ -1,0 +1,25 @@
+title: "What do Neural Machine Translation Models Learn about Morphology?"
+authors: "Yonatan Belinkov, Nadir Durrani, <span class='highlight-author'>Fahim Dalvi</span>, Hassan Sajjad, James Glass  "
+venue: "<a href='http://acl2017.org'>55th Annual Meeting of the Association for Computational Linguistics</a>"
+abstract: "Neural machine translation (MT) models obtain state-of-the-art performance while maintaining a simple, end-to-end architecture. However, little is known about what these models learn about source and target languages during the training process. In this work, we analyze the representations learned by neural MT models at various levels of granularity and empirically evaluate the quality of the representations for learning morphology through extrinsic part-of-speech and morphological tagging tasks. We conduct a thorough investigation along several parameters: word-based vs. character-based representations, depth of the encoding layer, the identity of the target language, and encoder vs. decoder representations. Our data-driven, quantitative evaluation sheds light on important aspects in the neural MT system and its ability to capture word structure."
+thumbnail: "/research/2017-07-ACL-nmt-morphology/thumbnail.jpg"
+pdf: "/research/2017-07-ACL-nmt-morphology/paper.pdf"
+poster: "/research/2017-07-ACL-nmt-morphology/poster.pdf"
+bib: 
+>
+    @InProceedings{P17-1080,
+      author =  "Belinkov, Yonatan
+        and Durrani, Nadir
+        and Dalvi, Fahim
+        and Sajjad, Hassan
+        and Glass, James",
+      title =   "What do Neural Machine Translation Models Learn about Morphology?",
+      booktitle =   "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+      year =  "2017",
+      publisher =   "Association for Computational Linguistics",
+      pages =   "861--872",
+      location =  "Vancouver, Canada",
+      doi =   "10.18653/v1/P17-1080",
+      url =   "http://www.aclweb.org/anthology/P17-1080"
+    }
+
