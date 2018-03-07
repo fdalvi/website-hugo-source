@@ -1,0 +1,7 @@
+title: "Airboats Data Visualizer"
+authors: "<span class='highlight-author'>Fahim Dalvi</span>, Balajee Kannan, Paul Scerri"
+venue: "<a href='https://riss.ri.cmu.edu/research_showcase/2012-posters/'>Robotics Institute, Carnegie Mellon, 2012</a>"
+abstract: "Small, autonomous watercraft are an ideal approach to a number of applications in flood mitigation and response, environmental sampling, and numerous other applications. Relative to other types of vehicles, watercraft are inexpensive, simple, robust and reliable.  The vision is to have large numbers of very inexpensive airboats provide situational awareness and deliver critical emergency supplies to victims, as well as low cost tools for environmental protection and monitoring. My role in this project was to create a visual interface to analyze and understand the data collected by the boats."
+thumbnail: "/research/unpublished-2012-riss/thumbnail.jpg"
+poster: "/research/unpublished-2012-riss/poster.pdf"
+

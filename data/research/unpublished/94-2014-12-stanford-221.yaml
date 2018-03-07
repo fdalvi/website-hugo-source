@@ -1,0 +1,7 @@
+title: "RTSift: Creating concise and meaningful review thread representations"
+authors: "Kevin Chavez, <span class='highlight-author'>Fahim Dalvi</span>"
+venue: "<a href='http://cs221.stanford.edu'>CS221: Artificial Intelligence, Stanford, 2014</a>"
+abstract: "We aim to produce a representation of review threads that is concise, interpretable, and preserves much of the meaning of the full text. Further, the representa- tion should be useful for various applications such as summarization, topic modeling, and star-rating pre- diction. This task can be modelled as a feature se- lection problem which consists of two stages: gen- erating feature proposals and filtering/ranking these features. The first stage automatically produces a large set of human-interpretable candidate features, while the second stage reduces that set to achieve a more concise representation."
+thumbnail: "/research/unpublished-2014-stanford-221/thumbnail.jpg"
+poster: "/research/unpublished-2014-stanford-221/poster.pdf"
+pdf: "/research/unpublished-2014-stanford-221/report.pdf"

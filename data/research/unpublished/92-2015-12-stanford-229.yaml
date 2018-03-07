@@ -1,0 +1,24 @@
+title: "Sign Language Recognition using Temporal Classification"
+authors: "Hardie Cate, <span class='highlight-author'>Fahim Dalvi</span>, Zeshan Hussain"
+venue: "<a href='http://cs229.stanford.edu'>CS229: Machine Learning, Stanford, 2015</a>"
+abstract: "In the US alone, there are approximately 900,000 hearing impaired people whose primary mode of conversation is sign language. For these people, communication with non-signers is a daily struggle, and they are often disadvantaged when it comes to finding a job, accessing health care, etc. There are a few emerging technologies aimed at overcoming these communication barriers, but most existing solutions rely on cameras to translate sign language into vocal language. While these solutions are promising, they require the hearing impaired person to carry the technology with him/her or for a proper environment to be set up for translation. One alternative is to move the technology onto the person’s body. Devices like the Myo armband available in the market today enable us to collect data about the position of the user’s hands and fingers over time. Since each sign is roughly a combination of gestures across time, we can use these technologies for sign language translation. For our project, we utilize a dataset collected by a group at the University of South Wales, which contains parameters, such as hand position, hand rotation, and finger bend, for 95 unique signs. For each input stream representing a sign, we predict which sign class this stream falls into. We begin by implementing baseline SVM and logistic regression models, which perform reasonably well on high-quality data. Lower quality data requires a more sophisticated approach, so we explore different methods in temporal classification, including long short-term memory architectures and sequential pattern mining methods."
+thumbnail: "/research/unpublished-2015-stanford-229/thumbnail.jpg"
+poster: "/research/unpublished-2015-stanford-229/poster.pdf"
+pdf: "/research/unpublished-2015-stanford-229/report.pdf"
+bib:
+>
+    @article{DBLP:journals/corr/CateDH17,
+      author    = {Hardie Cate and
+                   Fahim Dalvi and
+                   Zeshan Hussain},
+      title     = {Sign Language Recognition Using Temporal Classification},
+      journal   = {CoRR},
+      volume    = {abs/1701.01875},
+      year      = {2017},
+      url       = {http://arxiv.org/abs/1701.01875},
+      archivePrefix = {arXiv},
+      eprint    = {1701.01875},
+      timestamp = {Wed, 07 Jun 2017 14:41:28 +0200},
+      biburl    = {https://dblp.org/rec/bib/journals/corr/CateDH17},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }

@@ -1,0 +1,24 @@
+title: "DeepFace: Face Generation using Deep Learning"
+authors: "Hardie Cate, <span class='highlight-author'>Fahim Dalvi</span>, Zeshan Hussain"
+venue: "<a href='http://cs231n.stanford.edu'>CS231n: Convolutional Neural Networks for Visual Recognition, Stanford, 2016</a>"
+abstract: "Convolutional neural networks (CNNs) are powerful tools for image classification and object detection, but they can also be used to generate images. For our project, we use CNNs to create a face generation system. Given a set of desired facial characteristics, we produce a well-formed face that matches these attributes. Potential facial char- acteristics fall within the general categories of raw at- tributes (e.g., big nose, brown hair, etc.), ethnicity (e.g., white, black, Indian), and accessories (e.g. sunglasses, hat, etc.). In our face generation system, we fine-tune a convolutional network pre-trained on faces to create a binary classification system for the potential facial charac- teristics. We then employ a novel technique that models feature activations as a custom Gaussian Mixture Model in order to identify relevant features for feature inversion. Our face generation system has many potential uses, in- cluding identifying suspects in law enforcement settings."
+thumbnail: "/research/unpublished-2016-stanford-231n/thumbnail.jpg"
+poster: "/research/unpublished-2016-stanford-231n/poster.pdf"
+pdf: "/research/unpublished-2016-stanford-231n/report.pdf"
+bib:
+>
+    @article{DBLP:journals/corr/CateDH17a,
+      author    = {Hardie Cate and
+                   Fahim Dalvi and
+                   Zeshan Hussain},
+      title     = {DeepFace: Face Generation using Deep Learning},
+      journal   = {CoRR},
+      volume    = {abs/1701.01876},
+      year      = {2017},
+      url       = {http://arxiv.org/abs/1701.01876},
+      archivePrefix = {arXiv},
+      eprint    = {1701.01876},
+      timestamp = {Wed, 07 Jun 2017 14:40:49 +0200},
+      biburl    = {https://dblp.org/rec/bib/journals/corr/CateDH17a},
+      bibsource = {dblp computer science bibliography, https://dblp.org}
+    }

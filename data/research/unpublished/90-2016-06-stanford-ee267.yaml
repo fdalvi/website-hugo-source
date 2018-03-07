@@ -1,0 +1,7 @@
+title: "VirtualWars: Towards a More Immersive VR Experience"
+authors: "<span class='highlight-author'>Fahim Dalvi</span>, Tariq Patanam"
+venue: "<a href='https://stanford.edu/class/ee267/'>EE267: Virtual Reality, Stanford, 2016</a>"
+abstract: "Ensuring that virtual reality experiences are immersive is key to ensuring the success of VR and even VR. However, despite impressive commercial advancements from the Oculus Rift to the HTC Vive, a number of inherent limitations remain when comparing virtual experiences to real experiences: field of view, limb (mainly hand) tracking, position tracking in the world, haptic feedback, and more. In this study we seek to test a number of creative workarounds to create a fully immersive experience with current technological limitations. We found that overall, immersive experiences could be created, but because of the limitations of the technology, limitations had to be imposed on the virtual world such as how the content had to be presented (interactively and not passively), how objects were destroyed, and more."
+thumbnail: "/research/unpublished-2016-stanford-ee267/thumbnail.jpg"
+poster: "/research/unpublished-2016-stanford-ee267/poster.pdf"
+pdf: "/research/unpublished-2016-stanford-ee267/report.pdf"

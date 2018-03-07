@@ -1,0 +1,7 @@
+title: "Violet: Optimal Image Selection with Machine Learning"
+authors: "<span class='highlight-author'>Fahim Dalvi</span>, Kai-Yuan Neo"
+venue: "<a href='http://cs231a.stanford.edu'>CS231a: Computer Vision, Stanford, 2015</a>"
+abstract: "People often capture several photos of the same scene to produce the best image. Manually choosing the best image out of the candidates is a time consuming process. We propose an algorithm to automatically detect the optimal image out of a set of candidate images. This eliminates the need for people to spend time evaluating the quality of their images, and allows them to focus on enjoying the memories they have experienced."
+thumbnail: "/research/unpublished-2015-stanford-231a/thumbnail.jpg"
+slides: "/research/unpublished-2015-stanford-231a/slides.pdf"
+pdf: "/research/unpublished-2015-stanford-231a/report.pdf"
