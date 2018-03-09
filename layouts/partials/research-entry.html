@@ -15,6 +15,7 @@
 			{{ if .poster }}<a class="research-action" href="{{ .poster }}">Poster</a> {{ end }}
 			{{ if .bib }}<div class="research-action" onclick="this.parentNode.nextElementSibling.classList.toggle('expanded')">Cite (.bib)</div> {{end}}
 			{{ if .slides }}<a class="research-action" href="{{ .slides }}">Slides</a> {{ end }}
+			{{ if .code }}<a class="research-action" href="{{ .code }}">Code</a> {{ end }}
 		</div>
 		{{ if .bib }}
 			<div class="research-citation">	

@@ -1,19 +1,23 @@
 ---
 title: Research
-description: Recent Publications and Scientific Research.
+description: Recent research publications
 menu: main
 weight: 2
 slug: research
 comments: false
 ---
+### 2018
+{{% center %}}
+_Coming soon!_
+{{% /center %}}
 
-<h3> 2017 </h3>
+### 2017
 {{% research-entries category="2017"%}}
 
-<h3> 2016 </h3>
+### 2016
 {{% research-entries category="2016"%}}
 
-<h3> Unpublished works </h3>
+### Unpublished works
 _A list of unpublished work that resulted from student research or class projects_
 
 {{% research-entries category="unpublished"%}}
