@@ -12,6 +12,11 @@
 	}
 }
 
+.sep-after:after {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
 /************************ Comments ************************/
 .post-comments:before {
 	content: "";
@@ -312,4 +317,23 @@
 	overflow: hidden;
 
 	transition: max-height 0.26s ease;
+}
+
+/*********************** TEACHING ***********************/
+.teaching-entry {
+	border-bottom: 0px !important;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 20px;
+
+	cursor: pointer;
+}
+
+.teaching-entry:hover {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.teaching-abstract {
+	margin-top: 10px;
+	font-size: 1em;
 }
