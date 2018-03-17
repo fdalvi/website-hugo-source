@@ -333,6 +333,10 @@
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 }
 
+.teaching-title > h4 {
+	margin-bottom: 5px;
+}
+
 .teaching-abstract {
 	margin-top: 10px;
 	font-size: 1em;

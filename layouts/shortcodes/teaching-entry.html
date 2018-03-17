@@ -1,5 +1,6 @@
 <div class="teaching-entry" onclick="window.location.href='{{.Get `url`}}'">
 	<div class="teaching-title"><h4>{{(.Get "title")}}</h4></div>
+	<div class="teaching-role"><i>{{.Get "role"}}</i></div>
 	<div class="teaching-venue">{{(.Get "venue") | safeHTML}}</div>
 	<div class="teaching-abstract">	
 		{{(.Get "abstract" | safeHTML)}}
