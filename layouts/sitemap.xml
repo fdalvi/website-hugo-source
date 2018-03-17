@@ -6,10 +6,10 @@
       <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
       <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
     </url>
-    {{- $staticFiles := findRE "/.+\\.pdf" .Content -}}
+    {{- $staticFiles := findRE "\"/[^\"]+\\.pdf" .Content -}}
     {{ range $file := $staticFiles }}
       <url>
-        <loc>{{ $file | absURL }}</loc>
+        <loc>{{ (strings.TrimPrefix "\"" $file) | absURL }}</loc>
         <priority>0.4</priority>
       </url>
     {{ end }}
