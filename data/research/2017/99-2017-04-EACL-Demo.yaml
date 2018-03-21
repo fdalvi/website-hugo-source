@@ -4,6 +4,7 @@ venue: "<a href='http://eacl2017.org'>15th Conference of the European Chapter of
 abstract: "We present QCRI’s Arabic-to-English speech translation system. It features modern web technologies to capture live audio, and broadcasts Arabic transcriptions and English translations simultaneously. Our Kaldi-based ASR system uses the Time Delay Neural Network architecture, while our Machine Translation (MT) system uses both phrase-based and neural frameworks. Although our neural MT system is slower than the phrase-based system, it produces significantly better translations and is memory efficient."
 thumbnail: "/research/2017-04-EACL-Demo/thumbnail.jpg"
 pdf: "/research/2017-04-EACL-Demo/paper.pdf"
+poster: "/research/2017-04-EACL-Demo/poster.pdf"
 bib: 
 >
     @InProceedings{E17-3016,
