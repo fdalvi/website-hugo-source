@@ -71,18 +71,13 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-# codepen = "MunifTanjim"
-email = "contact@example.com"
-# facebook = "MunifTanjim"
+email = "dalvifahim+website@gmail.com"
 github = "fdalvi"
-#instagram = "MunifTanjim"
 linkedin = "fdalvi"
-#twitter = "MunifTanjim"
-#telegram = "MunifTanjim"
 google_scholar = "uQGCv10AAAAJ"
 
 [params.social.config]
-platforms = ["email","github","facebook","twitter","instagram","codepen","linkedin","telegram","google_scholar"]
+platforms = ["email","github","linkedin","google_scholar"]
 
 [taxonomies]
 author = "authors"
@@ -92,11 +87,11 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-# [[menu.main]]
-# name = "Repo"
-# weight = -10
-# identifier = "repository"
-# url = "https://github.com/MunifTanjim/minimo"
+[[menu.main]]
+name = "Resume"
+weight = 10
+identifier = "resume"
+url = "/fdalvi-resume.pdf"
 
 [blackfriday]
 hrefTargetBlank = true
