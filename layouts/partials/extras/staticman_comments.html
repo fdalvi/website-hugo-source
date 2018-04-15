@@ -15,7 +15,7 @@
               <img class="post-comment-avatar" src="/img/icons8-name-filled-100.png" style="background-color: {{ .color | safeCSS}}">
               <p class="post-comment-info"><strong>{{ .name }}</strong><br>{{ dateFormat "Monday, Jan 2, 2006" .date }}</p>
               <div class="post-comment-reply-btn">
-                <a id="{{ ._id }}" class="btn-info" href="#comment-form" onclick="replyTo('{{ ._id }}', '{{ .name }}')"> ↓ Reply</a>
+                <a id="{{ ._id }}" class="btn-info" href="#custom-comment-form" onclick="replyTo('{{ ._id }}', '{{ .name }}')"> ↓ Reply</a>
               </div>
             </div>
             {{ .comment | markdownify }}
