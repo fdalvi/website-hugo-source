@@ -7,7 +7,7 @@ slug: teaching
 comments: false
 ---
 {{% teaching-entry
-	title="Deep Learning for Natural Language Processing"
+	title="From Theory to Practice: Deep Learning for NLP"
 	role="Co-Lecturer"
 	venue="<a href='https://www.uni-due.de'>Universität Duisburg-Essen</a>, 2018"
 	abstract="A 5-day lecture series covering the basics of machine learning, neural networks and deep neural networks. We look at several deep neural network architectures from the perspective of applying them to various classification tasks, such as sequence prediction and generation. Every lecture is accompanied with practice problems implemented in Keras, a popular Python framework for deep learning."
