@@ -16,9 +16,9 @@
   <ul class='list'>
   {{ range ( first $length ( where .Site.RegularPages "Type" "not in" $config.excludeTypes ) ) }}
     {{ if eq $showFirstCategory true }}
-      {{ .Render "li-category" }}
-    {{ else }}
       {{ .Render "li" }}
+    {{ else }}
+      {{ .Render "li-nocategory" }}
     {{ end }}
   {{ end }}
   </ul>

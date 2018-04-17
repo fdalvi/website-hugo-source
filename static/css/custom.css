@@ -343,8 +343,3 @@
 	margin-top: 10px;
 	font-size: 1em;
 }
-
-/************************* LI ***************************/
-li > header > h3 > .item-category {
-	float: right;
-}

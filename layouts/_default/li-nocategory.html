@@ -7,10 +7,6 @@
       <a href='{{ .Permalink | relURL }}'>
         {{- .Title -}}
       </a>
-      <span class='item-category'>
-        <span class="taxonomy-icon">{{- partial "svg/icons" "category" -}}</span>
-        {{- (index .Params.categories 0) | title -}}
-      </span>
     </h3>
   </header>
 </li>

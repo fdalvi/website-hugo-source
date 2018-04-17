@@ -1,0 +1,18 @@
+<li class='item'>
+  <div class='meta'>
+    {{ partial "list/date" . }}
+  </div>
+  <header class='item-header'>
+    <h3 class='item-title'>
+      <a href='{{ .Permalink | relURL }}'>
+        {{- .Title -}}
+      </a>
+    </h3>
+  </header>
+  {{ if not (eq .Params.categories nil) }}
+    <div class='item-category'>
+      <span class="taxonomy-icon">{{- partial "svg/icons" "category" -}}</span>
+      {{- (index .Params.categories 0) | title -}}
+    </div>
+  {{ end }}
+</li>
