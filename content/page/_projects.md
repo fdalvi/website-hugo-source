@@ -8,7 +8,7 @@ comments: false
 ---
 {{% center %}}
 <div class="project-list">
-  <div class="project">
+  <div class="project" onclick="window.location.href='/projects/live-speech-translation/'">
     <img src="/img/projects/live-speech-translation.png"></img>
     <div class="project-container">
       <p class="project-title">Live Speech Translation</p>
