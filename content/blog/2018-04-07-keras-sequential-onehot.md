@@ -1,7 +1,7 @@
 ---
 date: 2018-04-07T20:00:00+03:00
 lastmod: 2018-04-07T20:00:00+03:00
-title: One-Hot layer using Keras Sequential API
+title: One-Hot layer in Keras's Sequential API
 authors: ["fdalvi"]
 categories:
   - techtips
@@ -81,7 +81,7 @@ print(model.predict(X, batch_size=32).shape) # prints (2, 5, 100)
 
 Note that we don't use the argument `output_dim` from the Embedding layer since we are only interesting in the one-hot representation, not an embedding from the weight matrix.
 
-Finally for the sake of completeness, if you want to replicate the Embedding layer using this OneHot layer, it would look something like this:
+Finally for the sake of completeness, if you want to replicate the Embedding layer using this `OneHot` layer, it would look something like this:
 
 {{< highlight Python >}}
 model = Sequential()
@@ -97,5 +97,5 @@ We use a [TimeDistributed](https://keras.io/layers/wrappers/#timedistributed) wr
 
 Some thoughts following this implementation:
 
-* Its a good question to ask why we need a OneHot layer anyways (and not just use the Embedding layer). In my case, I wanted to show an RNN model that has an explicit Embedding layer vs one that does not, and hence it was necessary to pass the one-hot vector as is to the recurrent layer. I'm sure there are other scenarios as well, given the discussions around the web regarding this topic.
+* Its a good question to ask why we need a `OneHot` layer anyways (and not just use the Embedding layer). In my case, I wanted to show an RNN model that has an explicit Embedding layer vs one that does not, and hence it was necessary to pass the one-hot vector as is to the recurrent layer. I'm sure there are other scenarios as well, given the discussions around the web regarding this topic.
 * Another potential solution is to just convert the input matrix `X` into a one-hot representation before passing it as input (e.g. using `keras.utils.to_categorical`) - but this method quickly fails when you have a lot of data. With 1000 instances of length 50 and a vocabulary of 5000 words, the one-hot representation would need `1000 x 50 x 5000` entries in the one-hot tensor, and if each entry is of 8 bytes, that adds up to 2GB of memory for representing the input alone! Hence, creating the one-hot representations on the fly becomes the only option.
