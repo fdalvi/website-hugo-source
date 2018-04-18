@@ -1,7 +1,7 @@
 ---
 date: 2018-04-15T19:00:00+03:00
 lastmod: 2018-04-15T19:00:00+03:00
-title: Deep Learning for NLP Crash course @ Uni Duisburg-Essen
+title: Deep Learning for NLP Crash Course @ Uni Duisburg-Essen
 authors: ["fdalvi"]
 categories:
   - news
@@ -16,9 +16,9 @@ cover:
   style: full
 ---
 
-Hassan Sajjad and I just had a great time delivering a 5-day crash course at the Universität Duisburg-Essen. It was delivers roughly over 18 hours - with quite a lot of practical exercises! Check out the [course materials](/teaching/2018-dl4nlp-duisburg).
+Hassan Sajjad and I just had a great time delivering a 5-day crash course at the Universität Duisburg-Essen. It was delivered roughly over 18 hours - with quite a lot of practical exercises! Check out the [course materials](/teaching/2018-dl4nlp-duisburg).
 
-Duisburg was a nice and calm place, not a lot of crowded places. A döner place was ready to greet you almost around every corner, and the Königstraße was super-lively with a lot of pop-up shops and restaurants.
+Duisburg was a nice and calm place, with a döner restaurant ready to greet you almost around every corner. The Königstraße was super-lively with a lot of pop-up shops and restaurants, and was quite a fun walk in the afternoon.
 
 {{% center %}}
   {{< figure src="/blog/2018-04-15-dl4nlp-duisburg/sunset.jpg" caption="Sunsets were quite beautiful!" >}}
