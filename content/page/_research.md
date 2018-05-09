@@ -7,15 +7,13 @@ slug: research
 comments: false
 ---
 ### 2018
-{{% center %}}
-_Coming soon!_
-{{% /center %}}
+{{% research-entries category="2018" %}}
 
 ### 2017
-{{% research-entries category="2017"%}}
+{{% research-entries category="2017" %}}
 
 ### 2016
-{{% research-entries category="2016"%}}
+{{% research-entries category="2016" %}}
 
 ### Unpublished works
 _A list of unpublished work that resulted from student research or class projects_

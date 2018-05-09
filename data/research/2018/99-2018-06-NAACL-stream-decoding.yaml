@@ -1,0 +1,24 @@
+title: "Incremental Decoding and Training Methods for Simultaneous Translation in Neural Machine Translation"
+authors: "<span class='highlight-author'>Fahim Dalvi*</span>, Nadir Durrani*, Hassan Sajjad, Stephan Vogel"
+venue: "<a href='http://naacl2018.org'> The 16th Annual Conference of the North American Chapter of the Association for Computational Linguistics </a>"
+abstract: "We address the problem of simultaneous translation by modifying the Neural MT decoder to operate with dynamically built encoder and attention. We propose a tunable agent which decides the best segmentation strategy for a userdefined BLEU loss and Average Proportion (AP) constraint. Our agent outperforms previously proposed Wait-if-diff and Wait-if-worse agents (Cho and Esipova, 2016) on BLEU with a lower latency. Secondly we proposed datadriven changes to Neural MT training to better match the incremental decoding framework."
+thumbnail: "/research/2018-06-NAACL-stream-decoding/thumbnail.jpg"
+pdf: "/research/2018-06-NAACL-stream-decoding/paper.pdf"
+bib: 
+>
+    @InProceedings{dalvi-EtAl:2018,
+      author =  "Dalvi, Fahim
+        and Durrani, Nadir
+        and Sajjad, Hassan
+        and Vogel, Stephan",
+        title     = {Incremental Decoding and Training Methods for Simultaneous Translation in Neural Machine Translation},
+        booktitle = {Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+        month     = {June},
+        year      = {2017},
+        address   = {New Orleans, Louisiana},
+        publisher = {Association for Computational Linguistics},
+        pages     = {XX--XX},
+        url       = {http://www.aclweb.org/anthology/XX-XXXX}
+    }
+code: https://github.com/fdalvi/seq2seq-attn-stream
+authornote: "* These authors contributed equally to this work"

@@ -5,6 +5,7 @@
 	<div class="research-details">
 		<div class="research-title"><b>{{(.title)}}</b></div>
 		<div class="research-authors"> <i> {{.authors | safeHTML}} </i> </div>
+		{{ if .authornote }} <div class="research-author-note"> {{ .authornote }} </div> {{ end }}
 		<div class="research-venue">{{(.venue) | safeHTML}}</div>
 		<div class="research-abstract">	
 			{{(.abstract)}}
