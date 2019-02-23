@@ -6,6 +6,9 @@ weight: 2
 slug: research
 comments: false
 ---
+### 2019
+{{% research-entries category="2019" %}}
+
 ### 2018
 {{% research-entries category="2018" %}}
 

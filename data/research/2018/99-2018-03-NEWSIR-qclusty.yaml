@@ -1,0 +1,20 @@
+title: "Qlusty: Quick and Dirty Generation of Event Videos from Written Media Coverage"
+authors: "Alberto Barrón-Cedeño, Giovanni Da San Martino, Yifan Zhang, Ahmed Ali, <span class='highlight-author'>Fahim Dalvi</span>"
+venue: "<a href='http://www.ecir2018.org/programme/ecir-workshop/#NewsIR&#x27;18'> NewsIR @ 40th European Conference on Information Retrieval </a>"
+abstract: "Qlusty generates videos describing the coverage of the same event by different news outlets automatically. Throughout four modules it identifies events, de-duplicates notes, ranks according to coverage, and queries for images to generate an overview video. In this manuscript we present our preliminary models, including quantitative evaluations of the former two and a qualitative analysis of the latter two. The results show the potential for achieving our main aim: contributing in breaking the information bubble, so common in the current news landscape."
+thumbnail: "/research/2018-03-NEWSIR-qclusty/thumbnail.jpg"
+pdf: "/research/2018-03-NEWSIR-qclusty/paper.pdf"
+bib: 
+>
+    @article{barron2018qlusty,
+      title={Qlusty: Quick and Dirty Generation of Event Videos from Written Media Coverage.},
+      author={Barr{\'o}n-Cede{\~n}o, Alberto 
+        and Da San Martino, Giovanni
+        and Zhang, Yifan
+        and Ali, Ahmed M
+        and Dalvi, Fahim},
+      journal={NewsIR@ ECIR},
+      volume={2079},
+      pages={27--32},
+      year={2018}
+    }
