@@ -1,0 +1,13 @@
+_id: 1fe02420-4ae5-11e9-9b22-0b998650ff55
+_parent: 2018-04-07-keras-sequential-onehot
+reply_to: ''
+color: 'rgb(199, 193, 47)'
+name: Iqbal
+comment: |-
+  Does your `OneHot` also available if I called it functionally, like
+
+  ```
+  class = Input(shape = (1,))
+  one_hot = OneHot(input_dim = num_class, input_length = 1)(class)
+  ```
+date: 1553068356
