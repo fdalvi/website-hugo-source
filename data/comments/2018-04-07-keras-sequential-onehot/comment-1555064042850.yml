@@ -1,0 +1,11 @@
+_id: b18b2360-5d0b-11e9-9dc1-9b09c8a772f1
+_parent: 2018-04-07-keras-sequential-onehot
+reply_to: 1fe02420-4ae5-11e9-9b22-0b998650ff55
+color: 'rgb(236, 32, 69)'
+name: Fahim
+comment: >-
+  Hello - This method is meant to be used in the Sequential API only, and so
+  cannot be used Functionally. I did not test this recently, but this
+  [gist](https://gist.github.com/bzamecnik/a33052ec46ee7efeb217856d98a4fb5f)
+  walks through a OneHot implementation using the functional API of Keras.
+date: 1555064042
