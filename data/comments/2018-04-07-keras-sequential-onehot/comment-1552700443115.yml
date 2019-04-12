@@ -1,0 +1,10 @@
+_id: 82c20e20-478c-11e9-b781-f3cf519148e3
+_parent: 2018-04-07-keras-sequential-onehot
+reply_to: ''
+color: 'rgb(162, 212, 159)'
+name: TrentBrick
+comment: >-
+  It seems like this tutorial no longer works. I am getting the error: The added
+  layer must be an instance of class Layer. Found: <keras.layers.core.Lambda
+  object. Using tf.version 1.11.0 and tf.keras version 2.1.6-tf.
+date: 1552700443
