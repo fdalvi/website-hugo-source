@@ -1,0 +1,18 @@
+_id: 6b588ea0-5d0b-11e9-9dc1-9b09c8a772f1
+_parent: 2018-04-07-keras-sequential-onehot
+reply_to: 82c20e20-478c-11e9-b781-f3cf519148e3
+color: 'rgb(236, 32, 69)'
+name: Fahim
+comment: >-
+  Hi, Thanks for reporting this!
+
+
+  Unfortunately, there have been some significant changes in the Sequential API
+  which causes these kinds of errors.
+
+
+  I'll look into it, but the best way forward is to use the Functional API :(
+  This
+  [gist](https://gist.github.com/bzamecnik/a33052ec46ee7efeb217856d98a4fb5f)
+  walks through doing this.
+date: 1555063924
