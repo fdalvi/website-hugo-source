@@ -1,0 +1,18 @@
+title: "Group Identification in Crowded Environments Using Proximity Sensing"
+authors: "Shaden Shaar, Saquib Razak, <span class='highlight-author'>Fahim Dalvi</span>, Syed Ali Hashim Moosavi"
+venue: "<a href='https://ieeexplore.ieee.org/servlet/opac?punumber=8635823'> 43rd IEEE Conference on Local Computer Networks </a>"
+abstract: "Children and elderly separating from their family members is a common phenomenon, especially in crowded environments. In order to avoid this problem, places like Disney World and pilgrimage officials have developed systems like wearable tags to determine groups or families. These tags require information about families to be entered manually, either by the users or the facility organizers. The information, if correct, can then be used to help identify and locate a lost person's group. Manually entering information is inefficient, and usually leads to either long waiting times during entry, or partial information entry within the tags. In this paper, we propose a system that uses proximity sensing to determine groups and families without any input or interaction with the user. In our system, each user is given a wearable device that keeps track of it's neighbors using bluetooth transmissions. The system then uses this proximity data to predict cliques that represent family members."
+thumbnail: "/research/2018-10-LCN-group-identification-crowd/thumbnail.jpg"
+pdf: "/research/2018-10-LCN-group-identification-crowd/paper.pdf"
+bib: 
+>
+    @InProceedings{shaar2018group,
+      title={Group Identification in Crowded Environments Using Proximity Sensing},
+      author={Shaar, Shaden and Razak, Saquib and Dalvi, Fahim and Moosavi, Syed Ali Hashim},
+      booktitle={43rd {IEEE} Conference on Local Computer Networks, {LCN} 2018, Chicago, IL, USA, October 1-4, 2018},
+      pages={319--322},
+      year={2018},
+      organization={IEEE},
+      url={https://doi.org/10.1109/LCN.2018.8638142},
+      doi={10.1109/LCN.2018.8638142}
+    }

@@ -1,0 +1,24 @@
+title: "One Size Does Not Fit All: Comparing NMT Representations of Different Granularities"
+authors: "Nadir Durrani, <span class='highlight-author'>Fahim Dalvi</span>, Hassan Sajjad, Yonatan Belinkov, Preslav Nakov"
+venue: "<a href='https://www.aclweb.org/anthology/events/naacl-2019/'> The 17th Annual Conference of the North American Chapter of the Association for Computational Linguistics </a>"
+abstract: "Recent work has shown that contextualized word representations derived from neural machine translation are a viable alternative to such from simple word predictions tasks. This is because the internal understanding that needs to be built in order to be able to translate from one language to another is much more comprehensive. Unfortunately, computational and memory limitations as of present prevent NMT models from using large word vocabularies, and thus alternatives such as subword units (BPE and morphological segmentations) and characters have been used. Here we study the impact of using different kinds of units on the quality of the resulting representations when used to model morphology, syntax, and semantics. We found that while representations derived from subwords are slightly better for modeling syntax, character-based representations are superior for modeling morphology and are also more robust to noisy input."
+thumbnail: "/research/2019-06-NAACL-comparing-nmt-granularity/thumbnail.jpg"
+pdf: "/research/2019-06-NAACL-comparing-nmt-granularity/paper.pdf"
+bib:
+>
+    @inproceedings{durrani-etal-2019-one,
+      title = "One Size Does Not Fit All: Comparing {NMT} Representations of Different Granularities",
+      author = "Durrani, Nadir  and
+                Dalvi, Fahim  and
+                Sajjad, Hassan  and
+                Belinkov, Yonatan  and
+                Nakov, Preslav",
+      booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+      month = jun,
+      year = "2019",
+      address = "Minneapolis, Minnesota",
+      publisher = "Association for Computational Linguistics",
+      url = "https://www.aclweb.org/anthology/N19-1154",
+      doi = "10.18653/v1/N19-1154",
+      pages = "1504--1516",
+    }

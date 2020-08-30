@@ -1,0 +1,20 @@
+title: "Rumour verification through recurring information and an inner-attention mechanism"
+authors: "Ahmet Aker, Alfred Sliwa, <span class='highlight-author'>Fahim Dalvi</span>, Kalina Bontcheva"
+venue: "<a href='https://www.sciencedirect.com/journal/online-social-networks-and-media/vol/13/suppl/C'> Online Social Networks and Media Volume 13 </a>"
+abstract: "Verification of online rumours is becoming an increasingly important task with the prevalence of event discussions on social media platforms. This paper proposes an inner-attention-based neural network model that uses frequent, recurring terms from past rumours to classify a newly emerging rumour as true, false or unverified. Unlike other methods proposed in related work, our model uses the source rumour alone without any additional information, such as user replies to the rumour or additional feature engineering. Our method outperforms the current state-of-the-art methods on benchmark datasets (RumourEval2017) by 3% accuracy and 6% F-1 leading to 60.7% accuracy and 61.6% F-1. We also compare our attention-based method to two similar models which however do not make use of recurrent terms. The attention-based method guided by frequent recurring terms outperforms this baseline on the same dataset, indicating that the recurring terms injected by the attention mechanism have high positive impact on distinguishing between true and false rumours. Furthermore, we perform out-of-domain evaluations and show that our model is indeed highly competitive compared to the baselines on a newly released RumourEval2019 dataset and also achieves the best performance on classifying fake and legitimate news headlines."
+thumbnail: "/research/2019-09-OSNEM-rumour-verification/thumbnail.jpg"
+pdf: "/research/2019-09-OSNEM-rumour-verification/paper.pdf"
+bib:
+>
+    @article{AKER2019100045,
+      title = "Rumour verification through recurring information and an inner-attention mechanism",
+      journal = "Online Social Networks and Media",
+      volume = "13",
+      pages = "100045",
+      year = "2019",
+      issn = "2468-6964",
+      doi = "https://doi.org/10.1016/j.osnem.2019.07.001",
+      url = "http://www.sciencedirect.com/science/article/pii/S2468696419300588",
+      author = "Ahmet Aker and Alfred Sliwa and Fahim Dalvi and Kalina Bontcheva",
+      keywords = "Rumour Verification, Inner Attention Model, Recurring Terms in Rumours"
+    }

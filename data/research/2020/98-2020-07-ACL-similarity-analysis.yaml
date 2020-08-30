@@ -1,0 +1,26 @@
+title: "Similarity Analysis of Contextual Word Representation Models"
+authors: "John Wu, Yonatan Belinkov, Hassan Sajjad, Nadir Durrani, <span class='highlight-author'>Fahim Dalvi</span>, James Glass"
+venue: "<a href='http://acl2020.org'>58th Annual Meeting of the Association for Computational Linguistics</a>"
+abstract: "This paper investigates contextual word representation models from the lens of similarity analysis. Given a collection of trained models, we measure the similarity of their internal representations and attention. Critically, these models come from vastly different architectures. We use existing and novel similarity measures that aim to gauge the level of localization of information in the deep models, and facilitate the investigation of which design factors affect model similarity, without requiring any external linguistic annotation. The analysis reveals that models within the same family are more similar to one another, as may be expected. Surprisingly, different architectures have rather similar representations, but different individual neurons. We also observed differences in information localization in lower and higher layers and found that higher layers are more affected by fine-tuning on downstream tasks."
+thumbnail: "/research/2020-07-ACL-similarity-analysis/thumbnail.jpg"
+pdf: "/research/2020-07-ACL-similarity-analysis/paper.pdf"
+bib: 
+>
+    @inproceedings{wu-etal-2020-similarity,
+        title = "Similarity Analysis of Contextual Word Representation Models",
+        author = "Wu, John  and
+          Belinkov, Yonatan  and
+          Sajjad, Hassan  and
+          Durrani, Nadir  and
+          Dalvi, Fahim  and
+          Glass, James",
+        booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+        month = jul,
+        year = "2020",
+        address = "Online",
+        publisher = "Association for Computational Linguistics",
+        url = "https://www.aclweb.org/anthology/2020.acl-main.422",
+        doi = "10.18653/v1/2020.acl-main.422",
+        pages = "4638--4655",
+        abstract = "This paper investigates contextual word representation models from the lens of similarity analysis. Given a collection of trained models, we measure the similarity of their internal representations and attention. Critically, these models come from vastly different architectures. We use existing and novel similarity measures that aim to gauge the level of localization of information in the deep models, and facilitate the investigation of which design factors affect model similarity, without requiring any external linguistic annotation. The analysis reveals that models within the same family are more similar to one another, as may be expected. Surprisingly, different architectures have rather similar representations, but different individual neurons. We also observed differences in information localization in lower and higher layers and found that higher layers are more affected by fine-tuning on downstream tasks.",
+    }
